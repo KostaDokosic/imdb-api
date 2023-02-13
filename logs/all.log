@@ -1,0 +1,1526 @@
+2023-02-09 10:54:39:5439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 10:57:02:572 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 10:57:12:5712 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 10:57:20:5720 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 10:57:30:5730 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:09:06:96 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:27:30:2730 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:28:22:2822 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:45:30:4530 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:47:04:474 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:49:43:4943 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:50:05:505 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:50:09:509 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:50:40:5040 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:54:15:5415 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:54:26:5426 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:54:59:5459 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 13:55:58:5558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:21:40:2140 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:22:37:2237 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:25:21:2521 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:26:12:2612 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:26:43:2643 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:27:12:2712 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:28:10:2810 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:28:25:2825 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:28:26:2826 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:30:05:305 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:30:14:3014 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:30:25:3025 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:30:28:3028 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:31:00:310 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:31:10:3110 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:36:40:3640 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:38:06:386 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:40:30:4030 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:41:02:412 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:42:12:4212 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:44:03:443 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:47:28:4728 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:47:49:4749 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:48:25:4825 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:49:16:4916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:50:48:5048 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m?   email?: String,[39m
+[31m?   id?: Int[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-09 14:51:11:5111 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:52:07:527 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m?   email?: String,[39m
+[31m?   id?: Int[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-09 14:52:53:5253 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 14:53:00:530 [31merror[39m: [31mCannot read properties of undefined (reading 'mfaCode')[39m
+2023-02-09 14:53:24:5324 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:23:54:2354 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:24:19:2419 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:24:27:2427 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:25:01:251 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:33:02:332 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:33:35:3335 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:33:37:3337 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:33:43:3343 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:35:22:3522 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:35:31:3531 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:35:35:3535 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:38:02:382 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:44:49:4449 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:45:04:454 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:51:41:5141 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:52:21:5221 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:52:35:5235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:54:30:5430 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:54:52:5452 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:56:34:5634 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:56:50:5650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:59:11:5911 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:59:28:5928 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 15:59:59:5959 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:01:55:155 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:01:57:157 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:02:02:22 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:03:03:33 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:03:49:349 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:03:53:353 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:04:43:443 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:04:50:450 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:05:39:539 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:05:44:544 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:06:35:635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:06:57:657 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:08:30:830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:08:41:841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:12:05:125 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:12:21:1221 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:23:13:2313 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:23:37:2337 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:24:36:2436 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:24:45:2445 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:25:04:254 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:25:23:2523 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:25:29:2529 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:25:44:2544 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:25:46:2546 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:26:20:2620 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:39:22:3922 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:39:48:3948 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:42:41:4241 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:45:01:451 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:45:19:4519 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:46:13:4613 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:46:15:4615 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:46:42:4642 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:48:23:4823 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:48:27:4827 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:50:44:5044 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:51:31:5131 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:52:03:523 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:52:21:5221 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:52:42:5242 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:52:52:5252 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:53:45:5345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:54:21:5421 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:54:53:5453 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:56:15:5615 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:56:29:5629 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:56:32:5632 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:56:44:5644 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.create()` invocation:[39m
+
+[31m{[39m
+[31m  data: {[39m
+[31m    title: 'Shutter Island',[39m
+[31m    description: ' 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane',[39m
+[31m    runtime: '138',[39m
+[31m             ~~~~~[39m
+[31m    year: '2010',[39m
+[31m          ~~~~~~[39m
+[31m    image: 'https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg'[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument runtime: Got invalid value '138' on prisma.createOneMovie. Provided String, expected Int.[39m
+[31mArgument year: Got invalid value '2010' on prisma.createOneMovie. Provided String, expected Int.[39m
+
+[31m[39m
+2023-02-09 16:57:45:5745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:57:54:5754 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:59:33:5933 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 16:59:37:5937 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:01:35:135 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:03:06:36 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:05:05:55 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:05:22:522 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:06:28:628 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:06:34:634 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:06:44:644 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:07:36:736 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:08:06:86 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:08:20:820 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:15:18:1518 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:20:55:2055 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:21:06:216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:21:22:2122 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:21:33:2133 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:21:45:2145 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-09 17:21:54:2154 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:07:01:71 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:10:37:1037 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: [[39m
+[31m      1[39m
+[31m    ][39m
+[31m    ~~~~~[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument genres: Got invalid value [39m
+[31m[[39m
+[31m  1[39m
+[31m][39m
+[31mon prisma.updateOneMovie. Provided List<Int>, expected GenreUpdateManyWithoutMoviesNestedInput:[39m
+[31mtype GenreUpdateManyWithoutMoviesNestedInput {[39m
+[31m  create?: GenreCreateWithoutMoviesInput | List<GenreCreateWithoutMoviesInput> | GenreUncheckedCreateWithoutMoviesInput | List<GenreUncheckedCreateWithoutMoviesInput>[39m
+[31m  connectOrCreate?: GenreCreateOrConnectWithoutMoviesInput | List<GenreCreateOrConnectWithoutMoviesInput>[39m
+[31m  upsert?: GenreUpsertWithWhereUniqueWithoutMoviesInput | List<GenreUpsertWithWhereUniqueWithoutMoviesInput>[39m
+[31m  set?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  disconnect?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  delete?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  connect?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  update?: GenreUpdateWithWhereUniqueWithoutMoviesInput | List<GenreUpdateWithWhereUniqueWithoutMoviesInput>[39m
+[31m  updateMany?: GenreUpdateManyWithWhereWithoutMoviesInput | List<GenreUpdateManyWithWhereWithoutMoviesInput>[39m
+[31m  deleteMany?: GenreScalarWhereInput | List<GenreScalarWhereInput>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:14:31:1431 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:14:39:1439 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      connect: [[39m
+[31m        1[39m
+[31m      ],[39m
+[31m?     create?: GenreCreateWithoutMoviesInput | GenreCreateWithoutMoviesInput[] | GenreUncheckedCreateWithoutMoviesInput | GenreUncheckedCreateWithoutMoviesInput[],[39m
+[31m?     connectOrCreate?: GenreCreateOrConnectWithoutMoviesInput | GenreCreateOrConnectWithoutMoviesInput[],[39m
+[31m?     upsert?: GenreUpsertWithWhereUniqueWithoutMoviesInput | GenreUpsertWithWhereUniqueWithoutMoviesInput[],[39m
+[31m?     set?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     disconnect?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     delete?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     update?: GenreUpdateWithWhereUniqueWithoutMoviesInput | GenreUpdateWithWhereUniqueWithoutMoviesInput[],[39m
+[31m?     updateMany?: GenreUpdateManyWithWhereWithoutMoviesInput | GenreUpdateManyWithWhereWithoutMoviesInput[],[39m
+[31m?     deleteMany?: GenreScalarWhereInput | GenreScalarWhereInput[][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument data.genres.connect of type GenreWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-10 13:16:06:166 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:16:21:1621 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          1[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:16:45:1645 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:16:53:1653 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          {[39m
+[31m            id: 1[39m
+[31m          }[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:18:51:1851 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:19:00:190 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          {[39m
+[31m            id: 1,[39m
+[31m            name: 'action'[39m
+[31m          }[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:19:20:1920 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:20:16:2016 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:21:50:2150 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:21:54:2154 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:22:06:226 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:25:44:2544 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:25:47:2547 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:35:05:355 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:35:19:3519 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:35:58:3558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:36:17:3617 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:38:01:381 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:38:48:3848 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:39:17:3917 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:39:30:3930 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:49:24:4924 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:49:34:4934 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:51:07:517 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:51:15:5115 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:51:47:5147 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:54:59:5459 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 13:55:04:554 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:01:04:14 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:01:33:133 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:02:37:237 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:05:30:530 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:07:36:736 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:08:11:811 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:12:03:123 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:12:12:1212 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:12:38:1238 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:13:28:1328 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:13:37:1337 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:14:03:143 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        },[39m
+[31m        {[39m
+[31m          id: 11[39m
+[31m        },[39m
+[31m        {[39m
+[31m          id: 12[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      },[39m
+[31m      {[39m
+[31m        id: 11[39m
+[31m      },[39m
+[31m      {[39m
+[31m        id: 12[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+[31mUnknown arg `1` in include.genres.1 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+[31mUnknown arg `2` in include.genres.2 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:14:36:1436 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:14:48:1448 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. Expected 3 records to be connected, found only 0.[39m
+2023-02-10 14:20:14:2014 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:22:20:2220 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:23:26:2326 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:25:12:2512 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:25:56:2556 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 2[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 2[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:26:04:264 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:39:00:390 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 14:39:22:3922 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:13:37:1337 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:26:15:2615 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:30:55:3055 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:30:56:3056 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:32:34:3234 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:33:08:338 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-10 15:33:35:3335 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:23:42:2342 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:38:42:3842 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:38:59:3859 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:54:05:545 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:54:06:546 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:57:42:5742 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:58:12:5812 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 13:59:30:5930 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:01:19:119 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:02:04:24 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:17:47:1747 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:18:35:1835 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:21:43:2143 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:21:59:2159 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:22:01:221 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:22:20:2220 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:22:26:2226 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:24:05:245 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:25:09:259 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:26:05:265 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:26:19:2619 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:26:39:2639 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:26:44:2644 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:27:59:2759 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:30:14:3014 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:32:52:3252 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:43:43:4343 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:46:14:4614 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:47:40:4740 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:49:16:4916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:49:53:4953 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:50:17:5017 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:56:46:5646 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:57:18:5718 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:58:42:5842 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:58:50:5850 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:59:13:5913 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 14:59:23:5923 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:17:17:1717 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:22:06:226 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:42:3042 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:30:42:3042 [32minfo[39m: [32mMaster 6949 is running[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6957 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6952 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6951 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6950 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6953 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6955 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6956 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mWorker 6954 started[39m
+2023-02-13 15:30:43:3043 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:15:4215 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:42:15:4215 [32minfo[39m: [32mMaster 7594 is running[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7607 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7602 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7605 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7606 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7608 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7603 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7604 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mWorker 7601 started[39m
+2023-02-13 15:42:16:4216 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:12:4712 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:47:12:4712 [32minfo[39m: [32mMaster 7943 is running[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7947 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7945 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7949 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7946 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7944 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7950 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7951 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mWorker 7948 started[39m
+2023-02-13 15:47:13:4713 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:23:4723 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:47:23:4723 [32minfo[39m: [32mMaster 8009 is running[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8016 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8012 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8014 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8019 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8017 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8018 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8015 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mWorker 8013 started[39m
+2023-02-13 15:47:24:4724 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:38:4738 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:47:38:4738 [32minfo[39m: [32mMaster 8083 is running[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8085 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8087 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:38:4738 [32minfo[39m: [32mWorker 8090 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8089 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:38:4738 [32minfo[39m: [32mWorker 8092 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8088 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8086 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mWorker 8091 started[39m
+2023-02-13 15:47:39:4739 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:44:4744 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:47:44:4744 [32minfo[39m: [32mMaster 8121 is running[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8126 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8125 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8123 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8122 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8127 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8124 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8128 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mWorker 8129 started[39m
+2023-02-13 15:47:45:4745 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:47:56:4756 [37mdebug[39m: [37mREQUEST:  | PARAMS: [object Object] | QUERY: [object Object] | BODY [object Object][39m
+2023-02-13 15:48:29:4829 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:48:29:4829 [32minfo[39m: [32mMaster 8164 is running[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8165 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8172 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8167 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8166 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8168 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8170 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8169 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mWorker 8171 started[39m
+2023-02-13 15:48:30:4830 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:48:34:4834 [37mdebug[39m: [37mREQUEST:  | PARAMS: {} | QUERY: {} | BODY {}[39m
+2023-02-13 15:48:46:4846 [37mdebug[39m: [37mREQUEST:  | PARAMS: {} | QUERY: {} | BODY {"email":"kosta123@gmail.com","password":"aDmIn11"}[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mMaster 8359 is running[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8367 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8360 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8364 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8362 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8361 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8365 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8366 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mWorker 8363 started[39m
+2023-02-13 15:51:34:5134 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mMaster 8409 is running[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8410 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8414 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8411 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8416 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8412 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8415 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8413 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mWorker 8417 started[39m
+2023-02-13 15:52:25:5225 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:43:5243 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:52:43:5243 [32minfo[39m: [32mMaster 8514 is running[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8527 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8533 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8529 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8534 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8528 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8530 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8531 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mWorker 8532 started[39m
+2023-02-13 15:52:44:5244 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mMaster 8583 is running[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8585 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8592 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8589 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8590 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8588 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8587 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8591 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mWorker 8586 started[39m
+2023-02-13 15:54:24:5424 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:49:5549 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:55:49:5549 [32minfo[39m: [32mMaster 8661 is running[39m
+2023-02-13 15:55:49:5549 [32minfo[39m: [32mWorker 8664 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8663 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8668 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8662 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8665 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8667 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8669 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mWorker 8666 started[39m
+2023-02-13 15:55:50:5550 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mMaster 8692 is running[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8694 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8695 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8693 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8696 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8698 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8697 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8700 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mWorker 8699 started[39m
+2023-02-13 15:56:11:5611 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:56:15:5615 [35mhttp[39m: [35m::1 POST /api/auth/signin 401 108 - 2.759 ms[39m
+[35m[39m
+2023-02-13 15:56:28:5628 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 2039.792 ms[39m
+[35m[39m
+2023-02-13 15:56:39:5639 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 1939.113 ms[39m
+[35m[39m
+2023-02-13 15:56:41:5641 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 493.576 ms[39m
+[35m[39m
+2023-02-13 15:56:43:5643 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 491.641 ms[39m
+[35m[39m
+2023-02-13 15:59:15:5915 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:59:15:5915 [32minfo[39m: [32mMaster 9108 is running[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9110 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9116 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9114 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9112 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9111 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9109 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9113 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mWorker 9115 started[39m
+2023-02-13 15:59:16:5916 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:28:5928 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 15:59:28:5928 [32minfo[39m: [32mMaster 9141 is running[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9144 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9143 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9146 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9147 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9142 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9149 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9145 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mWorker 9148 started[39m
+2023-02-13 15:59:29:5929 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 15:59:35:5935 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 2060.621 ms[39m
+[35m[39m
+2023-02-13 15:59:50:5950 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 616 - 2957.730 ms[39m
+[35m[39m
+2023-02-13 15:59:53:5953 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 616 - 739.996 ms[39m
+[35m[39m
+2023-02-13 15:59:56:5956 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 616 - 389.936 ms[39m
+[35m[39m
+2023-02-13 15:59:57:5957 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 616 - 383.634 ms[39m
+[35m[39m
+2023-02-13 16:08:14:814 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:08:14:814 [32minfo[39m: [32mMaster 9747 is running[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9750 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9749 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9754 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9751 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9748 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9752 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9753 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mWorker 9755 started[39m
+2023-02-13 16:08:15:815 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mMaster 9776 is running[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9778 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9783 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9780 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9781 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9779 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9782 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9784 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mWorker 9785 started[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:19:819 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mMaster 9795 is running[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9796 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9797 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9802 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9800 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9799 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9798 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9801 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mWorker 9803 started[39m
+2023-02-13 16:08:21:821 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:31:1031 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:10:31:1031 [32minfo[39m: [32mMaster 9934 is running[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9941 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9939 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9944 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9940 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9942 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9937 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9938 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mWorker 9943 started[39m
+2023-02-13 16:10:32:1032 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:11:21:1121 [35mhttp[39m: [35m::1 GET /api/monitor/health 200 72 - 2.967 ms[39m
+[35m[39m
+2023-02-13 16:25:25:2525 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:25:25:2525 [32minfo[39m: [32mMaster 10980 is running[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10982 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10984 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10983 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10985 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10981 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10988 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10986 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mWorker 10987 started[39m
+2023-02-13 16:25:26:2526 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mMaster 11018 is running[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11023 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11019 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11022 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11021 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11025 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11020 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11024 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mWorker 11026 started[39m
+2023-02-13 16:25:58:2558 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:41:41:4141 [35mhttp[39m: [35m::1 GET /api/movies/search/ 400 364 - 1256.624 ms[39m
+[35m[39m
+2023-02-13 16:42:04:424 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:42:04:424 [32minfo[39m: [32mMaster 12196 is running[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12207 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12208 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12202 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12206 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12201 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12204 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12205 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mWorker 12203 started[39m
+2023-02-13 16:42:05:425 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mMaster 12240 is running[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12248 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12249 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12247 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12244 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12243 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12245 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12242 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mWorker 12246 started[39m
+2023-02-13 16:42:15:4215 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:20:4220 [35mhttp[39m: [35m::1 GET /api/movies/search/ 400 364 - 1343.045 ms[39m
+[35m[39m
+2023-02-13 16:42:34:4234 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:42:34:4234 [32minfo[39m: [32mMaster 12284 is running[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12286 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12292 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12289 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12287 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12288 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12290 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12291 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mWorker 12293 started[39m
+2023-02-13 16:42:35:4235 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:42:37:4237 [35mhttp[39m: [35m::1 GET /api/movies/search/ 400 364 - 1181.033 ms[39m
+[35m[39m
+2023-02-13 16:42:39:4239 [35mhttp[39m: [35m::1 GET /api/movies/search/adsd 200 701 - 256.213 ms[39m
+[35m[39m
+2023-02-13 16:44:43:4443 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:44:43:4443 [32minfo[39m: [32mMaster 12456 is running[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12460 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12459 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12462 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12463 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12464 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12466 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12461 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mWorker 12465 started[39m
+2023-02-13 16:44:44:4444 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:44:51:4451 [35mhttp[39m: [35m::1 GET /api/movies/search/adsd 200 701 - 1382.427 ms[39m
+[35m[39m
+2023-02-13 16:45:12:4512 [35mhttp[39m: [35m::1 POST /api/movies/create 201 342 - 2172.142 ms[39m
+[35m[39m
+2023-02-13 16:45:23:4523 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 834 - 2866.435 ms[39m
+[35m[39m
+2023-02-13 16:45:33:4533 [35mhttp[39m: [35m::1 GET /api/movies/search/shutt 200 - - 1362.425 ms[39m
+[35m[39m
+2023-02-13 16:45:37:4537 [35mhttp[39m: [35m::1 GET /api/movies/search/shutter 200 - - 123.751 ms[39m
+[35m[39m
+2023-02-13 16:45:41:4541 [35mhttp[39m: [35m::1 GET /api/movies/search/spiderman 200 - - 125.295 ms[39m
+[35m[39m
+2023-02-13 16:45:58:4558 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=spiderman 400 364 - 115.475 ms[39m
+[35m[39m
+2023-02-13 16:46:08:468 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:46:08:468 [32minfo[39m: [32mMaster 12519 is running[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12524 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12523 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12521 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12520 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12525 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12527 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12526 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mWorker 12522 started[39m
+2023-02-13 16:46:09:469 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:10:4610 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=spiderman 400 162 - 7.437 ms[39m
+[35m[39m
+2023-02-13 16:46:34:4634 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:46:34:4634 [32minfo[39m: [32mMaster 12567 is running[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12573 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12570 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12572 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12574 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12569 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12571 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12568 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mWorker 12575 started[39m
+2023-02-13 16:46:35:4635 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:40:4640 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=spiderman 200 344 - 1388.076 ms[39m
+[35m[39m
+2023-02-13 16:46:49:4649 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:46:49:4649 [32minfo[39m: [32mMaster 12674 is running[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12680 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12681 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12686 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12684 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12685 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12683 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12682 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mWorker 12687 started[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:50:4650 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:52:4652 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=spiderman 400 364 - 1121.746 ms[39m
+[35m[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mMaster 12739 is running[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12750 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12748 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12746 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12747 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12749 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12753 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12751 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mWorker 12752 started[39m
+2023-02-13 16:46:56:4656 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:47:01:471 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=spiderman 200 344 - 1459.593 ms[39m
+[35m[39m
+2023-02-13 16:47:05:475 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=shut 200 2 - 124.226 ms[39m
+[35m[39m
+2023-02-13 16:47:07:477 [35mhttp[39m: [35m::1 GET /api/movies/search/?name=shutter 200 701 - 126.311 ms[39m
+[35m[39m
+2023-02-13 16:47:17:4717 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 834 - 2855.744 ms[39m
+[35m[39m
+2023-02-13 16:47:21:4721 [35mhttp[39m: [35m::1 GET /api/movies?page=1&sortBy=asc 200 834 - 729.576 ms[39m
+[35m[39m
+2023-02-13 16:47:24:4724 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 866.671 ms[39m
+[35m[39m
+2023-02-13 16:47:48:4748 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 2019.994 ms[39m
+[35m[39m
+2023-02-13 16:48:31:4831 [35mhttp[39m: [35m::1 GET /api/movies/1 200 408 - 2006.233 ms[39m
+[35m[39m
+2023-02-13 16:48:40:4840 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:48:40:4840 [32minfo[39m: [32mMaster 13018 is running[39m
+2023-02-13 16:48:40:4840 [32minfo[39m: [32mWorker 13025 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:40:4840 [32minfo[39m: [32mWorker 13020 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13021 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13023 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13024 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13022 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13026 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mWorker 13019 started[39m
+2023-02-13 16:48:41:4841 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mMaster 13064 is running[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13065 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13071 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13067 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13068 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13070 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13069 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13066 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mWorker 13072 started[39m
+2023-02-13 16:48:54:4854 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:14:4914 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:49:14:4914 [32minfo[39m: [32mMaster 13105 is running[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13107 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13108 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13110 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13106 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13109 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13111 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13112 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mWorker 13113 started[39m
+2023-02-13 16:49:15:4915 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mMaster 13153 is running[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13159 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13160 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13157 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13154 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13156 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13158 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13155 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mWorker 13161 started[39m
+2023-02-13 16:49:55:4955 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:38:338 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:03:38:338 [32minfo[39m: [32mMaster 13992 is running[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13999 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13997 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13998 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13996 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13993 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 14000 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13994 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mWorker 13995 started[39m
+2023-02-13 17:03:39:339 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:44:344 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:03:44:344 [32minfo[39m: [32mMaster 14033 is running[39m
+2023-02-13 17:03:44:344 [32minfo[39m: [32mWorker 14041 started[39m
+2023-02-13 17:03:44:344 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:44:344 [32minfo[39m: [32mWorker 14040 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14045 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14042 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14046 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14043 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14044 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mWorker 14039 started[39m
+2023-02-13 17:03:45:345 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mMaster 14070 is running[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14076 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14078 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14081 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14080 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14079 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14082 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14077 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mWorker 14075 started[39m
+2023-02-13 17:03:46:346 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mMaster 14129 is running[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14130 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14132 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14131 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14135 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14134 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14133 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14136 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mWorker 14137 started[39m
+2023-02-13 17:03:56:356 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:05:45 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:04:05:45 [32minfo[39m: [32mMaster 14159 is running[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14161 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14162 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14160 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14165 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14163 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14167 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14164 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mWorker 14166 started[39m
+2023-02-13 17:04:06:46 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mNumber of CPUs is 8[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mMaster 14191 is running[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14192 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14194 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14193 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14197 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14198 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14195 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14199 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mWorker 14196 started[39m
+2023-02-13 17:04:39:439 [32minfo[39m: [32mListening at http://localhost:3333/api[39m

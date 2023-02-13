@@ -1,0 +1,531 @@
+2023-02-09 13:47:04:474 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:50:05:505 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:50:09:509 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 13:54:26:5426 [31merror[39m: [31mCannot read properties of undefined (reading 'generateSecretASCII')[39m
+2023-02-09 14:50:48:5048 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m?   email?: String,[39m
+[31m?   id?: Int[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-09 14:52:07:527 [31merror[39m: [31m[39m
+[31mInvalid `prisma.user.findUnique()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m?   email?: String,[39m
+[31m?   id?: Int[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument where of type UserWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-09 14:53:00:530 [31merror[39m: [31mCannot read properties of undefined (reading 'mfaCode')[39m
+2023-02-09 16:56:44:5644 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.create()` invocation:[39m
+
+[31m{[39m
+[31m  data: {[39m
+[31m    title: 'Shutter Island',[39m
+[31m    description: ' 1954, a U.S. Marshal investigates the disappearance of a murderer who escaped from a hospital for the criminally insane',[39m
+[31m    runtime: '138',[39m
+[31m             ~~~~~[39m
+[31m    year: '2010',[39m
+[31m          ~~~~~~[39m
+[31m    image: 'https://m.media-amazon.com/images/M/MV5BYzhiNDkyNzktNTZmYS00ZTBkLTk2MDAtM2U0YjU1MzgxZjgzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg'[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument runtime: Got invalid value '138' on prisma.createOneMovie. Provided String, expected Int.[39m
+[31mArgument year: Got invalid value '2010' on prisma.createOneMovie. Provided String, expected Int.[39m
+
+[31m[39m
+2023-02-10 13:10:37:1037 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: [[39m
+[31m      1[39m
+[31m    ][39m
+[31m    ~~~~~[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument genres: Got invalid value [39m
+[31m[[39m
+[31m  1[39m
+[31m][39m
+[31mon prisma.updateOneMovie. Provided List<Int>, expected GenreUpdateManyWithoutMoviesNestedInput:[39m
+[31mtype GenreUpdateManyWithoutMoviesNestedInput {[39m
+[31m  create?: GenreCreateWithoutMoviesInput | List<GenreCreateWithoutMoviesInput> | GenreUncheckedCreateWithoutMoviesInput | List<GenreUncheckedCreateWithoutMoviesInput>[39m
+[31m  connectOrCreate?: GenreCreateOrConnectWithoutMoviesInput | List<GenreCreateOrConnectWithoutMoviesInput>[39m
+[31m  upsert?: GenreUpsertWithWhereUniqueWithoutMoviesInput | List<GenreUpsertWithWhereUniqueWithoutMoviesInput>[39m
+[31m  set?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  disconnect?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  delete?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  connect?: GenreWhereUniqueInput | List<GenreWhereUniqueInput>[39m
+[31m  update?: GenreUpdateWithWhereUniqueWithoutMoviesInput | List<GenreUpdateWithWhereUniqueWithoutMoviesInput>[39m
+[31m  updateMany?: GenreUpdateManyWithWhereWithoutMoviesInput | List<GenreUpdateManyWithWhereWithoutMoviesInput>[39m
+[31m  deleteMany?: GenreScalarWhereInput | List<GenreScalarWhereInput>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:14:39:1439 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      connect: [[39m
+[31m        1[39m
+[31m      ],[39m
+[31m?     create?: GenreCreateWithoutMoviesInput | GenreCreateWithoutMoviesInput[] | GenreUncheckedCreateWithoutMoviesInput | GenreUncheckedCreateWithoutMoviesInput[],[39m
+[31m?     connectOrCreate?: GenreCreateOrConnectWithoutMoviesInput | GenreCreateOrConnectWithoutMoviesInput[],[39m
+[31m?     upsert?: GenreUpsertWithWhereUniqueWithoutMoviesInput | GenreUpsertWithWhereUniqueWithoutMoviesInput[],[39m
+[31m?     set?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     disconnect?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     delete?: GenreWhereUniqueInput | GenreWhereUniqueInput[],[39m
+[31m?     update?: GenreUpdateWithWhereUniqueWithoutMoviesInput | GenreUpdateWithWhereUniqueWithoutMoviesInput[],[39m
+[31m?     updateMany?: GenreUpdateManyWithWhereWithoutMoviesInput | GenreUpdateManyWithWhereWithoutMoviesInput[],[39m
+[31m?     deleteMany?: GenreScalarWhereInput | GenreScalarWhereInput[][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mArgument data.genres.connect of type GenreWhereUniqueInput needs at least one argument. Available args are listed in green.[39m
+
+[31mNote: Lines with ? are optional.[39m
+[31m[39m
+2023-02-10 13:16:21:1621 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          1[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:16:53:1653 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          {[39m
+[31m            id: 1[39m
+[31m          }[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:19:00:190 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 1[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        [[39m
+[31m          {[39m
+[31m            id: 1,[39m
+[31m            name: 'action'[39m
+[31m          }[39m
+[31m        ][39m
+[31m      ][39m
+[31m    }[39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in data.genres.set.0.0 for type GenreWhereUniqueInput. Available args:[39m
+
+[31mtype GenreWhereUniqueInput {[39m
+[31m  id?: Int[39m
+[31m  name?: String[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:35:19:3519 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:38:48:3848 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:39:30:3930 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 13:49:34:4934 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 1[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 1[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:12:12:1212 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:13:37:1337 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:14:03:143 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 13[39m
+[31m        },[39m
+[31m        {[39m
+[31m          id: 11[39m
+[31m        },[39m
+[31m        {[39m
+[31m          id: 12[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 13[39m
+[31m      },[39m
+[31m      {[39m
+[31m        id: 11[39m
+[31m      },[39m
+[31m      {[39m
+[31m        id: 12[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+[31mUnknown arg `1` in include.genres.1 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+[31mUnknown arg `2` in include.genres.2 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m
+2023-02-10 14:14:48:1448 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+
+[31mAn operation failed because it depends on one or more records that were required but not found. Expected 3 records to be connected, found only 0.[39m
+2023-02-10 14:25:56:2556 [31merror[39m: [31m[39m
+[31mInvalid `prisma.movie.update()` invocation:[39m
+
+[31m{[39m
+[31m  where: {[39m
+[31m    id: 2[39m
+[31m  },[39m
+[31m  data: {[39m
+[31m    genres: {[39m
+[31m      set: [[39m
+[31m        {[39m
+[31m          id: 2[39m
+[31m        }[39m
+[31m      ][39m
+[31m    }[39m
+[31m  },[39m
+[31m  include: {[39m
+[31m    genres: [[39m
+[31m      {[39m
+[31m        id: 2[39m
+[31m      }[39m
+[31m    ][39m
+[31m  }[39m
+[31m}[39m
+
+[31mUnknown arg `0` in include.genres.0 for type Genre. Available args:[39m
+
+[31mtype genres {[39m
+[31m  where?: GenreWhereInput[39m
+[31m  orderBy?: List<GenreOrderByWithRelationInput> | GenreOrderByWithRelationInput[39m
+[31m  cursor?: GenreWhereUniqueInput[39m
+[31m  take?: Int[39m
+[31m  skip?: Int[39m
+[31m  distinct?: List<GenreScalarFieldEnum>[39m
+[31m}[39m
+
+[31m[39m

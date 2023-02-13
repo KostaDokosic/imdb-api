@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "allowJs": false,
+
+    "paths": {
+      "@app/*": ["./apps/imdb-api/src/app/*"],
+      "@routes/*": ["./apps/imdb-api/src/routes/*"],
+      "@controllers/*": ["./apps/imdb-api/src/controllers/*"],
+      "@assets/*": ["./apps/imdb-api/src/assets/*"],
+      "@models/*": ["./apps/imdb-api/src/models/*"],
+      "@tests/*": ["./apps/imdb-api/src/tests/*"],
+      "@util/*": ["./apps/imdb-api/src/util/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
